@@ -1,0 +1,83 @@
+
+body{
+    margin: 0;
+    width: 100dvw;
+    height: 100dvh;
+    background-color: rgb(96, 96, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: #070F29;
+    border-bottom-left-radius: 25%;
+    
+}
+
+h1{
+    color: aliceblue;
+}
+
+h2{
+    color: #070F29;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+section, form, main{
+    width: 90%;
+    padding: 17px;
+}
+
+section, form, main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.inputForm{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 70%;
+    margin: 12px 0;
+
+}
+
+input{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: larger;
+    border: none;
+    margin-top: 2px;
+
+}
+
+.buttonSubmitForm{
+    width: 15%;
+    background-color: rgb(215, 236, 255);
+    font-size: large;
+    color: black;
+    padding: 2px;
+    border-radius: 25px;
+    border: none;
+
+}
+/*
+ul{
+    list-style: none;
+    width: 99%;
+}*/
